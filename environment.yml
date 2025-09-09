@@ -1,0 +1,17 @@
+name: mlg
+channels:
+  - pyg
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pyg
+  - jupyter            
+  - notebook          
+  - ipykernel          
+  - pip:
+      - torch==2.7.1+cu128
+      - torchvision==0.22.1+cu128
+      - torchaudio==2.7.1+cu128
+      - --extra-index-url https://download.pytorch.org/whl/cu128
